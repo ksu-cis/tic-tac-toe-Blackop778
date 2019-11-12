@@ -35,3 +35,26 @@ body {
         display: none;
     }
 }
+
+.square {
+	border: 1px solid black;
+	width: 100px;
+	height: 100px;
+	font-size: 90px;
+	color: purple;
+	text-align: center;
+}
+
+.square:hover {
+
+}
+
+#grid {
+	display: grid;
+	grid-template-columns: 100px 100px 100px;
+	grid-template-rows: 1fr 1fr 1fr;
+}
+
+svg > path:hover {
+	fill: rebeccapurple;
+}
